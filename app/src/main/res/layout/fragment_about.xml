@@ -1,0 +1,243 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_vertical"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    app:behavior_overlapTop="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:nestedScrollingEnabled="true"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/small_padding_margin"
+        tools:context="sdejesus.portfolio.FragmentAbout">
+
+        <FrameLayout
+            android:id="@+id/about.framelayout.description"
+            android:layout_width="@dimen/framenlayout_item_timeline"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/about.textview.description.text"
+            android:layout_alignStart="@+id/about.textview.description.text"
+            android:layout_alignTop="@+id/about.textview.description.text">
+
+            <sdejesus.portfolio.custom.CircleImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:src="@drawable/ic_description_black"
+                app:civ_border_color="@android:color/black"
+                app:civ_border_width="2dp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/about.textview.description.text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="@dimen/framenlayout_item_timeline"
+            android:text="@string/description"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/about.textview.description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/about.textview.description.text"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="@dimen/framenlayout_item_timeline"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <FrameLayout
+            android:id="@+id/about.framelayout.email"
+            android:layout_width="@dimen/framenlayout_item_timeline"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/about.textview.email.text"
+            android:layout_alignStart="@+id/about.textview.email.text"
+            android:layout_alignTop="@+id/about.textview.email.text">
+
+            <sdejesus.portfolio.custom.CircleImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:src="@drawable/ic_email_black"
+                app:civ_border_color="@android:color/black"
+                app:civ_border_width="2dp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/about.textview.email.text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about.textview.description"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="@dimen/framenlayout_item_timeline"
+            android:text="@string/email"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/about.textview.email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/about.textview.email.text"
+            android:autoLink="email"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="@dimen/framenlayout_item_timeline"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <FrameLayout
+            android:id="@+id/about.framelayout.phone"
+            android:layout_width="@dimen/framenlayout_item_timeline"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/about.textview.phone.text"
+            android:layout_alignStart="@+id/about.textview.phone.text"
+            android:layout_alignTop="@+id/about.textview.phone.text">
+
+            <sdejesus.portfolio.custom.CircleImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:src="@drawable/ic_phone_black"
+                app:civ_border_color="@android:color/black"
+                app:civ_border_width="2dp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/about.textview.phone.text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about.textview.email"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="@dimen/framenlayout_item_timeline"
+            android:text="@string/phone"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/about.textview.phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/about.textview.phone.text"
+            android:autoLink="phone"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="@dimen/framenlayout_item_timeline"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <FrameLayout
+            android:id="@+id/about.framelayout.skype"
+            android:layout_width="@dimen/framenlayout_item_timeline"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/about.textview.skype.text"
+            android:layout_alignStart="@+id/about.textview.skype.text"
+            android:layout_alignTop="@+id/about.textview.skype.text">
+
+            <sdejesus.portfolio.custom.CircleImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:src="@drawable/ic_skype_black"
+                app:civ_border_color="@android:color/black"
+                app:civ_border_width="2dp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/about.textview.skype.text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about.textview.phone"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="@dimen/framenlayout_item_timeline"
+            android:text="@string/skype"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/about.textview.skype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/about.textview.skype.text"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="@dimen/framenlayout_item_timeline"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <FrameLayout
+            android:id="@+id/about.framelayout.linkedin"
+            android:layout_width="@dimen/framenlayout_item_timeline"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/about.textview.linkedin.text"
+            android:layout_alignStart="@+id/about.textview.linkedin.text"
+            android:layout_alignTop="@+id/about.textview.linkedin.text">
+
+            <sdejesus.portfolio.custom.CircleImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:src="@drawable/ic_linkedin_black"
+                app:civ_border_color="@android:color/black"
+                app:civ_border_width="2dp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/about.textview.linkedin.text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about.textview.skype"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="@dimen/framenlayout_item_timeline"
+            android:text="@string/linkedin"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/about.textview.linkedin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/about.textview.linkedin.text"
+            android:autoLink="web"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="@dimen/framenlayout_item_timeline"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/about.framelayout.email"
+            android:layout_below="@id/about.framelayout.description"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/half_framenlayout_item_timeline"
+            android:background="@android:color/black"></View>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/about.framelayout.phone"
+            android:layout_below="@id/about.framelayout.email"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/half_framenlayout_item_timeline"
+            android:background="@android:color/black"></View>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/about.framelayout.skype"
+            android:layout_below="@id/about.framelayout.phone"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/half_framenlayout_item_timeline"
+            android:background="@android:color/black"></View>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/about.framelayout.linkedin"
+            android:layout_below="@id/about.framelayout.skype"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/half_framenlayout_item_timeline"
+            android:background="@android:color/black"></View>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

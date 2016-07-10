@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Portfolio</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Content provider related -->
+    <string name="content_authority">sdejesus.portfolio</string>
+
+    <string name="about">ABOUT</string>
+    <string name="portfolio">PORTFOLIO</string>
+    <string name="interest">SKILLS</string>
+    <string name="description">Description</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="repository">Repository</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="skype">Skype</string>
+    <string name="tags">Tags</string>
+    <string name="link">Link</string>
+
+    <string name="transition_string">sharedtransition</string>
+
+    <string name="lorep">Lorem  ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae commodo dolor. Sed sollicitudin, nisi eget facili ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae commodo dolor. Sed sollicitudin, nisi eget facili ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae commodo dolor. Sed sollicitudin, nisi eget facili ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae commodo dolor. Sed sollicitudin, nisi eget facili ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae commodo dolor. Sed sollicitudin, nisi eget facili ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae commodo dolor. Sed sollicitudin, nisi eget facili ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae commodo dolor. Sed sollicitudin, nisi eget facili ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae commodo dolor. Sed sollicitudin, nisi eget facili ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae commodo dolor. Sed sollicitudin, nisi eget facili ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae commodo dolor. Sed sollicitudin, nisi eget facili ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae commodo dolor. Sed sollicitudin, nisi eget faciliipsum dolor sit amet, consectetur adipiscing elit. Proin vitae commodo dolor. Sed sollicitudin, nisi eget facilisis cursus, nisl turpis condimentum dui, vitae ultricies elit libero ac velit. Fusce id elementum erat. Vestibulum egestas placerat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec hendrerit turpis sed mi sodales convallis eget pharetra nulla. Phasellus nec dolor nec libero aliquet cursus non non lorem. nibh lorem, sit amet aliquet eros commodo sed. Vivamus commodo elementum tempus. </string>
+
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">sdejesus.portfolio</string>
+
+</resources>

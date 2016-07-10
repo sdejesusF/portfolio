@@ -1,0 +1,250 @@
+{
+  "users":[
+    {
+      "id": 1, "email": "sergiofelipedejesus2@gmail.com", "name": "Sergio De Jesus"
+                ,"number": "+584123537041", "skype": "scs.sdejesus", "linkedin": "www.linkedin.com/in/sergio-de-jesus"
+                    , "description": "Passionate and motivated professional with more than three years of experience in Android development who also loves making beautiful code and working always with the latest tools available. Strong knowledge building great BackEnd API's and front-end websites using several technologies like Javascript, Jquery, Angular, CSS3, HTML, as well as experience maintaining Linux based servers. "
+                        , "birthday": "09/06/1992", "avatar": "imagen"
+    }
+  ],
+  "users_skills":[
+    {
+      "id": 1, "avatar": "", "name": "#LINUX", "description": "", "user_id": 1
+    },
+    {
+      "id": 2, "avatar": "", "name": "#MAC", "description": "", "user_id": 1
+    },
+    {
+      "id": 3, "avatar": "", "name": "#ANDROIDSTUDIO", "description": "", "user_id": 1
+    },
+    {
+      "id": 4, "avatar": "", "name": "#JAVASCRIPT", "description": "", "user_id": 1
+    },
+    {
+      "id": 5, "avatar": "", "name": "#JAVA", "description": "", "user_id": 1
+    },
+    {
+      "id": 6, "avatar": "", "name": "#ATOM", "description": "", "user_id": 1
+    },
+    {
+      "id": 7, "avatar": "", "name": "#PHP", "description": "", "user_id": 1
+    },
+    {
+      "id": 8, "avatar": "", "name": "#IONIC", "description": "", "user_id": 1
+    },
+    {
+      "id": 9, "avatar": "", "name": "#ANGULAR", "description": "", "user_id": 1
+    },
+    {
+      "id": 10, "avatar": "", "name": "#LARAVEL", "description": "", "user_id": 1
+    },
+    {
+      "id": 11, "avatar": "", "name": "#GPS", "description": "", "user_id": 1
+    },
+    {
+      "id": 12, "avatar": "", "name": "#MONGOSQL", "description": "", "user_id": 1
+    },
+    {
+      "id": 13, "avatar": "", "name": "#POSTGRESQL", "description": "", "user_id": 1
+    },
+    {
+      "id": 14, "avatar": "", "name": "#HTML", "description": "", "user_id": 1
+    }
+  ],
+  "categories":[
+    {
+      "id": 1, "avatar": "android2_background","name": "Android","description": "Background image for Android category"
+    },
+    {
+      "id": 2, "avatar": "web6_background","name": "Web","description": "Background image for Web category"
+    },
+    {
+      "id": 3, "avatar": "hybrid2_background","name": "Hybrid","description": "Background image for Hybrid category"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1, "name": "Infinity Solutions", "avatar": "infinitysolution", "description": "Mobile app for a quick view and live tracking for KeepAndTrack platform users."
+          ,"link": "https://play.google.com/store/apps/details?id=com.kat", "repository": "Private",
+              "company": "KAT", "year": "2016", "tags": "Google Maps,GPS",
+                  "category_id": 1, "user_id": 1
+    },
+    {
+      "id": 9, "name": "PebblePlus", "avatar": "pebblepluspro", "description": "Mobile and wearable app for Android and Pebble devices. The Android app communicates with a watchapp that is running in Pebble smartwatch which enables to control some features like communicate when the user is parked, answer, decline or decline with a text message a phone call, used the watch to take a photo and some others cool features."
+          ,"link": "https://play.google.com/store/apps/details?id=com.ingenious.pebble.pro", "repository": "Private",
+              "company": "Globalcorpca", "year": "2014", "tags": "Smartwatch,Pebble,Google Maps,GPS,Notifications,Camera,Messages",
+                  "category_id": 1, "user_id": 1
+    },
+    {
+      "id": 3, "name": "MisAhorros", "avatar": "misahorros", "description": "The mobile game from an outsourcing contract with GreenDog and \"La Caixa\" a bank from Spain. The main concept is to give to children some gifts when they finish their duties, once the father registers a child he adds some duties and prizes. I was in charge to re-built and build some modules such as manage future homework module when the father can drag duties from weekdays."
+          ,"link": "No available", "repository": "Private",
+              "company": "GreenDog/La Caixa", "year": "2016", "tags": "Games,Animations",
+                  "category_id": 1, "user_id": 1
+    },
+    {
+      "id": 4, "name": "Jusbaires", "avatar": "jusbaires", "description": "App for lawyers from the city of Buenos Aires, Argentina. Has a couple of modules such as an RSS reader, document editor, and information about some courses. I was in charge of built the app structure as user interface and which components from Android's SDK  were used and the RSS reader module and the courses list."
+          ,"link": "No available", "repository": "Private",
+              "company": "GreenDog", "year": "2015", "tags": "RSS,Tweets",
+                  "category_id": 1, "user_id": 1
+    },
+    {
+      "id": 5, "name": "AssetEye", "avatar": "asseteye", "description": "Mobile app for a quick view and live tracking for AssetEye Tech platform users."
+          ,"link": "https://play.google.com/store/apps/details?id=com.asseteye", "repository": "Private",
+              "company": "AssetEye", "year": "2013", "tags": "Google Maps,GPS,Location",
+                  "category_id": 1, "user_id": 1
+    },
+    {
+      "id": 6, "name": "Sigem", "avatar": "sigem", "description": "First as a intern and then as an active developer team member for this web platform for tracking personal vehicles and fleet. Adding and re-writing useful modules that allow users to keep tracked their units at any time. The website is online and has clients from Venezuela, Panama and some in the US. You can get into using \"demo\" as user and password."
+          ,"link": "Http://globalcorpca.com", "repository": "Private",
+              "company": "Globalcorpca", "year": "2012-2013", "tags": "PHP,JAVA,Jquery,animation,Google Maps,GPS,Postgresql",
+                  "category_id": 2, "user_id": 1
+    },
+    {
+      "id": 7, "name": "ControlBoat", "avatar": "controlboat", "description": "Cross platform app for a small startup in Spain, is about managing your boats: maintenance, investments, port, alarms for maintenance, current cost calculation using depreciation and investment of the boat, and also shared with other people when you are going for a boat ride."
+          ,"link": "No available", "repository": "Private",
+            "company": "NextSoftware", "year": "2016", "tags": "IONIC,Agular,Jquery,Google Maps,Cordova,MySQL",
+              "category_id": 3, "user_id": 1
+    },
+    {
+      "id": 8, "name": "KeepAndTrack", "avatar": "infinitysolution", "description": "Co-founder, Web/Android Developer. GPS platform for Ecuadorian users. Built to meet all the requirements requested by the government such as live passenger counter, real-time location, historical position, and control when the busses arrive their stops."
+          ,"link": "http://keepandtrack.com/track/app/", "repository": "Private",
+              "company": "KAT", "year": "2015-Present", "tags": "Agular,Jquery,Google Maps,Android,MongoDB,Postgresql",
+                  "category_id": 2, "user_id": 1
+    },
+    {
+      "id": 2, "name": "Portfolio", "avatar": "folio", "description": "This app describes itself, is a showcase of some knowledge about some Android SDK  components like Content Provider, Sync Adapter, Cursor Adapter, ListView, Unit Test, UI, and others. Also, it describes some application and technologies that I been worked."
+          ,"link": "https://play.google.com/store/apps/details?id=sdejesus.portfolio", "repository": "https://github.com/sdejesusF/portfolio",
+              "company": "KAT", "year": "2016-Present", "tags": "Android,SyncAdapter,ContentProvider,SQlite,JSON",
+                  "category_id": 1, "user_id": 1
+    }
+  ],
+  "project_gallery":[
+    {
+      "id": 1, "avatar": "pebblepluspro1", "description": "Pebble plus app screenshot","project_id": 9
+    },
+    {
+      "id": 2, "avatar": "pebblepluspro2", "description": "Pebble plus app screenshot ","project_id": 9
+    },
+    {
+      "id": 3, "avatar": "pebblepluspro3", "description": "Pebble plus app screenshot ","project_id": 9
+    },
+    {
+      "id": 4, "avatar": "infinitysolution1", "description": "Infinity solutions screenshot","project_id": 1
+    },
+    {
+      "id": 5, "avatar": "infinitysolution2", "description": "Infinity solutions screenshot","project_id": 1
+    },
+    {
+      "id": 6, "avatar": "infinitysolution3", "description": "Infinity solutions screenshot","project_id": 1
+    },
+    {
+      "id": 7, "avatar": "misahorros1", "description": "Mis ahorros screenshot","project_id": 3
+    },
+    {
+      "id": 8, "avatar": "misahorros2", "description": "Mis ahorros screenshot","project_id": 3
+    },
+    {
+      "id": 9, "avatar": "misahorros3", "description": "Mis ahorros screenshot","project_id": 3
+    },
+    {
+      "id": 10, "avatar": "misahorros4", "description": "Mis ahorros screenshot","project_id": 3
+    },
+    {
+      "id": 11, "avatar": "misahorros5", "description": "Mis ahorros screenshot","project_id": 3
+    },
+    {
+      "id": 12, "avatar": "misahorros6", "description": "Mis ahorros screenshot","project_id": 3
+    },
+    {
+      "id": 13, "avatar": "misahorros7", "description": "Mis ahorros screenshot","project_id": 3
+    },
+    {
+      "id": 14, "avatar": "misahorros8", "description": "Mis ahorros screenshot","project_id": 3
+    },
+    {
+      "id": 15, "avatar": "misahorros9", "description": "Mis ahorros screenshot","project_id": 3
+    },
+    {
+      "id": 16, "avatar": "misahorros10", "description": "Mis ahorros screenshot","project_id": 3
+    },
+    {
+      "id": 17, "avatar": "misahorros11", "description": "Mis ahorros screenshot","project_id": 3
+    },
+    {
+      "id": 18, "avatar": "misahorros12", "description": "Mis ahorros screenshot","project_id": 3
+    },
+    {
+      "id": 19, "avatar": "jusbaires1", "description": "Jusbaires screenshot","project_id": 4
+    },
+    {
+      "id": 20, "avatar": "jusbaires2", "description": "Jusbaires screenshot","project_id": 4
+    },
+    {
+      "id": 21, "avatar": "asseteye1", "description": "AssetEye screenshot","project_id": 5
+    },
+    {
+      "id": 22, "avatar": "asseteye2", "description": "AssetEye screenshot","project_id": 5
+    },
+    {
+      "id": 23, "avatar": "controlboat1", "description": "ControlBoat screenshot","project_id": 7
+    },
+    {
+      "id": 24, "avatar": "controlboat2", "description": "ControlBoat screenshot","project_id": 7
+    },
+    {
+      "id": 25, "avatar": "controlboat3", "description": "ControlBoat screenshot","project_id": 7
+    },
+    {
+      "id": 26, "avatar": "controlboat4", "description": "ControlBoat screenshot","project_id": 7
+    },
+    {
+      "id": 27, "avatar": "controlboat5", "description": "ControlBoat screenshot","project_id": 7
+    },
+    {
+      "id": 28, "avatar": "controlboat6", "description": "ControlBoat screenshot","project_id": 7
+    },
+    {
+      "id": 28, "avatar": "controlboat6", "description": "ControlBoat screenshot","project_id": 7
+    },
+    {
+      "id": 29, "avatar": "kat1", "description": "KAT screenshot","project_id": 8
+    },
+    {
+      "id": 30, "avatar": "kat2", "description": "KAT screenshot","project_id": 8
+    },
+    {
+      "id": 31, "avatar": "kat3", "description": "KAT screenshot","project_id": 8
+    },
+    {
+      "id": 32, "avatar": "kat4", "description": "KAT screenshot","project_id": 8
+    },
+    {
+      "id": 33, "avatar": "kat5", "description": "KAT screenshot","project_id": 8
+    },
+    {
+      "id": 34, "avatar": "kat6", "description": "KAT screenshot","project_id": 8
+    },
+    {
+      "id": 35, "avatar": "folio1", "description": "Folio screenshot","project_id": 2
+    },
+    {
+      "id": 36, "avatar": "folio2", "description": "Folio screenshot","project_id": 2
+    },
+    {
+      "id": 37, "avatar": "folio3", "description": "Folio screenshot","project_id": 2
+    },
+    {
+      "id": 38, "avatar": "sigem1", "description": "Sigem screenshot","project_id": 6
+    },
+    {
+      "id": 39, "avatar": "sigem2", "description": "Sigem screenshot","project_id": 6
+    },
+    {
+      "id": 40, "avatar": "sigem3", "description": "Sigem screenshot","project_id": 6
+    },
+    {
+      "id": 41, "avatar": "sigem4", "description": "Sigem screenshot","project_id": 6
+    }
+
+  ]
+}
