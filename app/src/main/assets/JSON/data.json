@@ -42,13 +42,43 @@
       "id": 11, "avatar": "", "name": "#GPS", "description": "", "user_id": 1
     },
     {
-      "id": 12, "avatar": "", "name": "#MONGOSQL", "description": "", "user_id": 1
+      "id": 12, "avatar": "", "name": "#MONGODB", "description": "", "user_id": 1
     },
     {
       "id": 13, "avatar": "", "name": "#POSTGRESQL", "description": "", "user_id": 1
     },
     {
       "id": 14, "avatar": "", "name": "#HTML", "description": "", "user_id": 1
+    },
+    {
+      "id": 15, "avatar": "", "name": "#JENKINS", "description": "", "user_id": 1
+    },
+    {
+      "id": 16, "avatar": "", "name": "#NODEJS", "description": "", "user_id": 1
+    },
+    {
+      "id": 17, "avatar": "", "name": "#METEOR", "description": "", "user_id": 1
+    },
+    {
+      "id": 18, "avatar": "", "name": "#CI", "description": "", "user_id": 1
+    },
+    {
+      "id": 19, "avatar": "", "name": "#CD", "description": "", "user_id": 1
+    },
+    {
+      "id": 20, "avatar": "", "name": "#REACT", "description": "", "user_id": 1
+    },
+    {
+      "id": 21, "avatar": "", "name": "#STRIPE", "description": "", "user_id": 1
+    },
+    {
+      "id": 22, "avatar": "", "name": "#AWS", "description": "", "user_id": 1
+    },
+    {
+      "id": 23, "avatar": "", "name": "#SEQUELIZE", "description": "", "user_id": 1
+    },
+    {
+      "id": 24, "avatar": "", "name": "#FABRIC", "description": "", "user_id": 1
     }
   ],
   "categories":[
@@ -64,7 +94,7 @@
   ],
   "projects": [
     {
-      "id": 1, "name": "Infinity Solutions", "avatar": "infinitysolution", "description": "Mobile app for a quick view and live tracking for KeepAndTrack platform users."
+      "id": 6, "name": "Infinity Solutions", "avatar": "infinitysolution", "description": "Mobile app for a quick view and live tracking for KeepAndTrack platform users."
           ,"link": "https://play.google.com/store/apps/details?id=com.kat", "repository": "Private",
               "company": "KAT", "year": "2016", "tags": "Google Maps,GPS",
                   "category_id": 1, "user_id": 1
@@ -94,10 +124,16 @@
                   "category_id": 1, "user_id": 1
     },
     {
-      "id": 6, "name": "Sigem", "avatar": "sigem", "description": "First as a intern and then as an active developer team member for this web platform for tracking personal vehicles and fleet. Adding and re-writing useful modules that allow users to keep tracked their units at any time. The website is online and has clients from Venezuela, Panama and some in the US. You can get into using \"demo\" as user and password."
+      "id": 11, "name": "Sigem", "avatar": "sigem", "description": "First as a intern and then as an active developer team member for this web platform for tracking personal vehicles and fleet. Adding and re-writing useful modules that allow users to keep tracked their units at any time. The website is online and has clients from Venezuela, Panama and some in the US. You can get into using \"demo\" as user and password."
           ,"link": "Http://globalcorpca.com", "repository": "Private",
               "company": "Globalcorpca", "year": "2012-2013", "tags": "PHP,JAVA,Jquery,animation,Google Maps,GPS,Postgresql",
                   "category_id": 2, "user_id": 1
+    },
+    {
+      "id": 10, "name": "Closini", "avatar": "closini", "description": "Admin platform for a real estate agency. As a full stack developer, I contribute developing the API with migrations (sequelize), Stripe integration, CI, and CD as building the Web app in React integrating it with external components."
+    ,"link": "No Available", "repository": "Private",
+      "company": "ZIPDEV", "year": "2016-present", "tags": "REACT,NODEJS,EXPRESS,MYSQL,SEQUELIZE",
+      "category_id": 2, "user_id": 1
     },
     {
       "id": 7, "name": "ControlBoat", "avatar": "controlboat", "description": "Cross platform app for a small startup in Spain, is about managing your boats: maintenance, investments, port, alarms for maintenance, current cost calculation using depreciation and investment of the boat, and also shared with other people when you are going for a boat ride."
@@ -116,6 +152,12 @@
           ,"link": "https://play.google.com/store/apps/details?id=sdejesus.portfolio", "repository": "https://github.com/sdejesusF/portfolio",
               "company": "KAT", "year": "2016-Present", "tags": "Android,SyncAdapter,ContentProvider,SQlite,JSON",
                   "category_id": 1, "user_id": 1
+    },
+    {
+      "id": 1, "name": "Zeamo", "avatar": "zeamo", "description": "Zeamo is fitness freedom, it allows you search and buy passes for a gym without any contract. Currently in beta. As a fullstack developer in this project, my role was configured and maintain AWS servers, implement automatic process for integration and deployment (cleaning up at least 80% human error into that process), build the complete android app, integrate Stripe payments on the backend (NodeJS, Meteor), and contribute with minor changes on website (React)."
+          ,"link": "No available (beta)", "repository": "Private",
+              "company": "ZIPDEV", "year": "2016-Present", "tags": "Android,Stripe,Facebook,FullStack,Meteor,NodeJS,CI,CD",
+                  "category_id": 1, "user_id": 1
     }
   ],
   "project_gallery":[
@@ -129,13 +171,13 @@
       "id": 3, "avatar": "pebblepluspro3", "description": "Pebble plus app screenshot ","project_id": 9
     },
     {
-      "id": 4, "avatar": "infinitysolution1", "description": "Infinity solutions screenshot","project_id": 1
+      "id": 4, "avatar": "infinitysolution1", "description": "Infinity solutions screenshot","project_id": 6
     },
     {
-      "id": 5, "avatar": "infinitysolution2", "description": "Infinity solutions screenshot","project_id": 1
+      "id": 5, "avatar": "infinitysolution2", "description": "Infinity solutions screenshot","project_id": 6
     },
     {
-      "id": 6, "avatar": "infinitysolution3", "description": "Infinity solutions screenshot","project_id": 1
+      "id": 6, "avatar": "infinitysolution3", "description": "Infinity solutions screenshot","project_id": 6
     },
     {
       "id": 7, "avatar": "misahorros1", "description": "Mis ahorros screenshot","project_id": 3
@@ -234,16 +276,67 @@
       "id": 37, "avatar": "folio3", "description": "Folio screenshot","project_id": 2
     },
     {
-      "id": 38, "avatar": "sigem1", "description": "Sigem screenshot","project_id": 6
+      "id": 38, "avatar": "sigem1", "description": "Sigem screenshot","project_id": 11
     },
     {
-      "id": 39, "avatar": "sigem2", "description": "Sigem screenshot","project_id": 6
+      "id": 39, "avatar": "sigem2", "description": "Sigem screenshot","project_id": 11
     },
     {
-      "id": 40, "avatar": "sigem3", "description": "Sigem screenshot","project_id": 6
+      "id": 40, "avatar": "sigem3", "description": "Sigem screenshot","project_id": 11
     },
     {
-      "id": 41, "avatar": "sigem4", "description": "Sigem screenshot","project_id": 6
+      "id": 41, "avatar": "sigem4", "description": "Sigem screenshot","project_id": 11
+    },
+    {
+      "id": 42, "avatar": "zeamo1", "description": "Zeamo screenshot","project_id": 1
+    },
+    {
+      "id": 43, "avatar": "zeamo2", "description": "Zeamo screenshot","project_id": 1
+    },
+    {
+      "id": 44, "avatar": "zeamo3", "description": "Zeamo screenshot","project_id": 1
+    },
+    {
+      "id": 45, "avatar": "zeamo4", "description": "Zeamo screenshot","project_id": 1
+    },
+    {
+      "id": 46, "avatar": "zeamo5", "description": "Zeamo screenshot","project_id": 1
+    },
+    {
+      "id": 47, "avatar": "zeamo6", "description": "Zeamo screenshot","project_id": 1
+    },
+    {
+      "id": 48, "avatar": "zeamo7", "description": "Zeamo screenshot","project_id": 1
+    },
+    {
+      "id": 49, "avatar": "zeamo8", "description": "Zeamo screenshot","project_id": 1
+    },
+    {
+      "id": 50, "avatar": "zeamo9", "description": "Zeamo screenshot","project_id": 1
+    },
+    {
+      "id": 51, "avatar": "zeamo10", "description": "Zeamo screenshot","project_id": 1
+    },
+    {
+      "id": 52, "avatar": "zeamo11", "description": "Zeamo screenshot","project_id": 1
+    },
+    {
+      "id": 53, "avatar": "zeamo12", "description": "Zeamo screenshot","project_id": 1
+    },
+    {
+      "id": 54, "avatar": "zeamo13", "description": "Zeamo screenshot","project_id": 1
+    },
+    {
+      "id": 55, "avatar": "closini2", "description": "Closini screenshot","project_id": 10
+    },
+    {
+      "id": 56, "avatar": "closini3", "description": "Closini screenshot","project_id": 10
+    },
+    {
+      "id": 57, "avatar": "closini4", "description": "Closini screenshot","project_id": 10
+    },
+    {
+      "id": 58, "avatar": "closini5", "description": "Closini screenshot","project_id": 10
     }
 
   ]

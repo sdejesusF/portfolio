@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "861700846926",
+    "project_id": "portfolio-76f2a"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861700846926:android:09f36340b8848af6",
+        "android_client_info": {
+          "package_name": "sdejesus.portfolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADoT6WxXZMpEEgNfes-Cgl7iNzbBnl-EE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-87991910-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

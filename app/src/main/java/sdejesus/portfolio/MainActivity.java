@@ -21,6 +21,12 @@ import android.view.animation.AlphaAnimation;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.crashlytics.android.Crashlytics;
+import com.crashlytics.android.answers.Answers;
+import com.crashlytics.android.answers.ContentViewEvent;
+import com.crashlytics.android.answers.CustomEvent;
+
+import io.fabric.sdk.android.Fabric;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -73,6 +79,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Answers(), new Crashlytics());
         setContentView(R.layout.activity_main);
 
         // bind views
@@ -218,6 +225,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onPageSelected(int position) {
                 mTitle.setText(adapter.mFragmentTitleList.get(position));
+                Answers.getInstance().logCustom(new CustomEvent("Tab Pressed " + adapter.mFragmentTitleList.get(position)));
             }
 
             @Override

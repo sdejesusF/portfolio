@@ -17,6 +17,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 
+import com.crashlytics.android.answers.Answers;
+import com.crashlytics.android.answers.CustomEvent;
+
 import sdejesus.portfolio.data.PortfolioContract;
 
 /**
@@ -67,6 +70,7 @@ public class ProjectActivity extends AppCompatActivity implements LoaderManager.
             mUri =  getIntent().getData();
             mCoverResource = getIntent().getStringExtra(IMAGE_COVER);
             mTitle = getIntent().getStringExtra(NAME_COVER);
+            Answers.getInstance().logCustom(new CustomEvent("Project  " + mTitle));
         }
         // bind views
         setGraphics();
